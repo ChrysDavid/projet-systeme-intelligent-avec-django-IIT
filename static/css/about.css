@@ -1,0 +1,38 @@
+.about__container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+.about__image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about__content {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.about__content h1, .about__content h2 {
+    color: #333;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.about__content p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.about__content strong {
+    color: #ff5733;
+}
+
